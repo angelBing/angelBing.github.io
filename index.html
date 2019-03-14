@@ -1,13 +1,504 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
-        <title></title>
-    </head>
-    <body>
-        <div>
-            hello world    
-        </div> 
-    </body>
-</html> 
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title> 孙冰 web前端</title>
+    <link rel="icon" href="image/sun.ico"/>
+    <!-- Bootstrap -->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="lib/animate.css/animate.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="index.css"/>
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/html5shiv/html5shiv.min.js"></script>
+    <script src="lib/respond/respond.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="lib/jquery.fullPage.min.js"></script>
+    <!--<script src="lib/bootstrap/js/bootstrap.min.js"></script>-->
+</head>
+<body>
+<div id="min">
+    <!--第一屏-->
+    <div class="box1 section">
+        <!--导航-->
+        <nav class=" wjs_nav navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <!--<li class="active"><a href="#">首页<span class="sr-only">(current)</span></a></li>-->
+                        <!--<li><a href="#min">关于我</a></li>-->
+                        <li><a href="#mymessage">关于我</a></li>
+                        <li><a href="#skill">专业技能</a></li>
+                        <li><a href="#experience">我的经历</a></li>
+                        <li><a href="#exchange">互动</a></li>
+                    </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+
+                        <audio src="music/See You Again.mp3" controls></audio>
+
+
+                        <!--<li><a href="http://wpa.qq.com/msgrd?v=3&uin=583889541&site=qq&menu=yes">qq</a></li>-->
+                        <!--<li><a href="#">-->
+                        <!--<audio src="music/See You Again.mp3" controls></audio>-->
+                        <!--&lt;!&ndash;<audio src="music/See You Again.mp3" controls autoplay></audio>&ndash;&gt;-->
+                        <!--</a></li>-->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--照片-->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4  col-xs-4 col-sm-4 col-md-4"></div>
+                <div class="col-lg-4  col-sm-4 col-md-4">
+                    <div class="pic center-block">
+                        <a href="#">
+                            <!--<img src="" alt=""/>-->
+                            <img src="image/bing.jpg" alt=""/>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4  col-xs-4 col-sm-4 col-md-4"></div>
+            </div>
+        </div>
+        <hr/>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4  col-xs-4 col-sm-4 col-md-4"></div>
+                <div class="col-lg-4   col-sm-4 col-md-4">
+                    <div class="public public1">
+                        <a href="#">
+                            我叫孙冰
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4  col-xs-4 col-sm-4 col-md-4"></div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4  col-xs-4 col-sm-4 col-md-4"></div>
+                <div class="col-lg-4   col-sm-4 col-md-4">
+                    <div class="public public2">
+                        <a href="#">
+                            25岁
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4  col-xs-4 col-sm-4 col-md-4"></div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4  col-xs-4 col-sm-4 col-md-4"></div>
+                <div class="col-lg-4   col-sm-4 col-md-4">
+                    <div class="public public3">
+                        <a href="#">
+                            前端工程师
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4  col-xs-4 col-sm-4 col-md-4"></div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4  col-xs-4 col-sm-4 col-md-4"></div>
+                <div class="col-lg-4   col-sm-4 col-md-4">
+                    <div class="public public4">
+                        <a href="#">
+                            sunbing_s@163.com
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4  col-xs-4 col-sm-4 col-md-4"></div>
+            </div>
+        </div>
+    </div>
+    <!--第二屏 关于我-->
+    <div class="box2 section" id="mymessage">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4  col-xs-4 col-sm-4 col-md-4"></div>
+                <div class="col-lg-4   col-sm-4 col-md-4">
+                    <div class="public">
+                        <h3>关于我</h3>
+
+                        <div class="line">
+                            <h5>· ABOUT ME ·</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4  col-xs-4 col-sm-4 col-md-4"></div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2  col-xs-2 col-sm-2 col-md-2"></div>
+                <div class="col-lg-8  hidden-xs col-sm-8 col-md-8">
+                    <div class="message">
+                        <div class="public_message">
+                            <img src="image/education.png" alt=""/>
+                        </div>
+                        <div class="public_message">
+                            <img src="image/age.png" alt=""/>
+                        </div>
+                        <div class="public_message">
+                            <img src="image/location.png" alt=""/>
+                        </div>
+                        <div class="public_message">
+                            <img src="image/status.png" alt=""/>
+                        </div>
+                        <div class="myMseeage">
+                            <p>学历</p>
+
+                            <p class="line"></p>
+
+                            <p>大专</p>
+                        </div>
+                        <div class="myMseeage">
+                            <p>年龄</p>
+
+                            <p class="line"></p>
+
+                            <p>25</p>
+                        </div>
+                        <div class="myMseeage">
+                            <p>坐标</p>
+
+                            <p class="line"></p>
+
+                            <p>北京</p>
+                        </div>
+                        <div class="myMseeage">
+                            <p>状态</p>
+
+                            <p class="line"></p>
+
+                            <p>离职</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2  col-xs-2 col-sm-2 col-md-2"></div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2  col-xs-2 col-sm-2 col-md-2"></div>
+                <div class="col-lg-8  col-xs-8 col-sm-8 col-md-8">
+                    <div class="appraise">
+                        <p>
+                            性格开朗，乐于助人，喜欢结交朋友，能与人和睦相处，沟通能力较强，有责任心，对前端有着浓厚的兴趣，对自己不懂得地方有很强的求知欲！
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-2  col-xs-2 col-sm-2 col-md-2"></div>
+
+            </div>
+        </div>
+
+    </div>
+    <!--第三屏 专业技能-->
+    <div class="box3 section" id="skill">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4  col-xs-4 col-sm-4 col-md-4"></div>
+                <div class="col-lg-4  col-xs-4 col-sm-4 col-md-4">
+                    <div class="public">
+                        <h3>专业技能</h3>
+
+                        <div class="line">
+                            <h5>· SKILL ·</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4  col-xs-4 col-sm-4 col-md-4"></div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-1  col-xs-1 col-sm-1 col-md-1"></div>
+                <div class="col-lg-10  hidden-xs col-sm-10 col-md-10">
+                    <ul>
+                        <li class="animated" id="#demo"><a href="#"><img src="image/html.png" alt=""/></a></li>
+                        <li><a href="#"><img src="image/css.png" alt=""/></a></li>
+                        <li><a href="#"><img src="image/js.png" alt=""/></a></li>
+                    </ul>
+                    <div class="arrows">
+                        <!--<img src="image/skill_flag.png" alt=""/>-->
+
+                        <!--<div></div>-->
+                        <hr/>
+                    </div>
+                    <ul>
+                        <li><a href="#">HTML</a></li>
+                        <li><a href="#">CSS</a></li>
+                        <li><a href="#">JavaScript</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-10 hidden-lg hidden-md hidden-sm">
+                    <div class="skill0 skill1">
+
+                        <a href="#">HTML</a>
+
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar"
+                                 aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                                <a href="#">HTML</a>
+                                <span class="sr-only">40% Complete (success)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill0 skill2">
+
+                        <a href="#">CSS</a>
+
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar"
+                                 aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                                <a href="#">CSS</a>
+                                <span class="sr-only">20% Complete</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill0 skill3">
+                        <a href="#">JavaScript</a>
+
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar"
+                                 aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                <a href="#">JavaScript</a>
+                                <span class="sr-only">60% Complete (warning)</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="skill0 skill4">
+
+                        <a href="#">jQuery</a>
+
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar"
+                                 aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                                <a href="#">jQuery</a>
+                                <span class="sr-only">80% Complete (danger)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill0 skill5">
+                        <a href="#">bootstrap</a>
+
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45"
+                                 aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                                <a href="#">bootstrap</a>
+                                <span class="sr-only">45% Complete</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-1  col-xs-1 col-sm-1 col-md-1"></div>
+
+            </div>
+        </div>
+
+
+    </div>
+    <!--第四屏 我的经历-->
+    <div class="box4 section" id="experience">
+        <!--我的经历-->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4  col-xs-4 col-sm-4 col-md-4"></div>
+                <div class="col-lg-4   col-sm-4 col-md-4">
+                    <div class="public">
+                        <h3>我的经历</h3>
+
+                        <div class="line">
+                            <h5>· EXPERIENCE ·</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4  col-xs-4 col-sm-4 col-md-4"></div>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-1   col-xs-1 col-sm-1  col-md-1"></div>
+                <div class="col-lg-10  col-xs-l col-sm-10 col-md-10">
+
+
+                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                        <!--<ol class="carousel-indicators">-->
+                        <!--<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>-->
+                        <!--<li data-target="#carousel-example-generic" data-slide-to="1"></li>-->
+                        <!--</ol>-->
+
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <div class="hls hidden-xs fontColor">
+                                    <h3>华乐思在线教学网</h3>
+
+                                    <p>2014.7~2015.4</p>
+                                    <ul>
+                                        <li>传统的 pc 端，通过 DIV + CSS 布局；</li>
+                                        <li>负责页面的制作与改版；</li>
+                                        <li>使用 jQuery 进行 DOM 操作；</li>
+                                        <li>AJAX交互请求；</li>
+                                        <li>利用 HTML5 与 CSS3 为网页添加功能。</li>
+                                    </ul>
+                                </div>
+                                <div class="hls_xs hidden-lg hidden-md hidden-sm fontColor">
+                                    <p>华乐思在线教学网</p>
+
+                                    <p>2014.7~2015.4</p>
+                                </div>
+                                <img src="image/exp_list_bg1.jpg" alt="...">
+
+                                <div class="hidden-lg hidden-md hidden-sm fontColor">
+                                    <ul>
+                                        <li>传统的 pc 端，通过 DIV + CSS 布局；</li>
+                                        <li>负责页面的制作与改版；</li>
+                                        <li>使用 jQuery 进行 DOM 操作；</li>
+                                        <li>AJAX交互请求；</li>
+                                        <li>利用 HTML5 与 CSS3 为网页添加功能。</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="zhlc hidden-xs fontColor">
+                                    <h3>北京智合联创有限公司</h3>
+
+                                    <p>2015.5~2016.10</p>
+                                    <ul>
+                                        <li>负责公司相关 WEB 产品的前端开发工作；</li>
+                                        <li>突破 WEB 多终端设备提供良好兼容体验；</li>
+                                        <li>使用 HTML/CSS/JavaScript 开发符合 W3C 标准的页面；</li>
+                                        <li>与设计人员、后台工程师配合完成前后端合并工作。</li>
+                                    </ul>
+                                </div>
+                                <div class="zhlc_xs hidden-lg hidden-md hidden-sm fontColor">
+                                    <p>北京智合联创有限公司</p>
+
+                                    <p>2015.5~2016.10</p>
+                                </div>
+                                <img src="image/exp_list_bg1.jpg" alt="...">
+
+                                <div class="hidden-lg hidden-md hidden-sm">
+                                    <ul>
+                                        <li>负责公司相关 WEB 产品的前端开发工作；</li>
+                                        <li>突破 WEB 多终端设备提供良好兼容体验；</li>
+                                        <li>使用 HTML/CSS/JavaScript 开发符合 W3C 标准的页面；</li>
+                                        <li>与设计人员、后台工程师配合完成前后端合并工作。</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <a class="hidden-xs hidden-sm hidden-md carousel-control" href="#carousel-example-generic"
+                           role="button" data-slide="prev">
+                            <span class="  glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        </a>
+                        <a class="hidden-xs hidden-sm hidden-md carousel-control" href="#carousel-example-generic"
+                           role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        </a>
+                    </div>
+
+
+                </div>
+                <div class="col-lg-1   col-xs-1 col-sm-1 col-md-1"></div>
+            </div>
+        </div>
+
+
+    </div>
+    <!--第五屏 互动-->
+    <div class="box5 section" id="exchange">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2  col-xs-2 col-sm-2 col-md-2"></div>
+                <div class="col-lg-8  col-xs-8 col-sm-8 col-md-8">
+                    <div class="exchange agree">
+                        <p>点我有惊喜哦！！！</p>
+                        <span class="yes"><a href="exchange.html">yes</a></span>
+                        <span class="no"><a href="#">no</a></span>
+                    </div>
+                    <div class="hide disAgree">
+
+                        <p>麻烦请点左边yes,ok?</p>
+
+                        <p class="ok"><a href="#">ok!!!</a></p>
+                        <img src="image/012.jpg" alt=""/>
+                    </div>
+                </div>
+                <div class="col-lg-2  col-xs-2 col-sm-2 col-md-2"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="lib/bootstrap/js/transition.js"></script>
+<script src="lib/bootstrap/js/modal.js"></script>
+<script>
+    window.onload = (function () {
+        $("#min").fullpage({
+                    afterLoad: function (anchorLink, index) {
+                        $(".current").removeClass("current");
+                        setTimeout(function () {
+                            // 延时100毫秒执行*/
+                            $('.section').eq(index - 1).addClass('current');
+                        }, 100);
+                    },
+//
+                }
+        );
+
+        $(".no").on("click", function () {
+//           alert ("麻烦请点左边YES");
+            $(".agree").addClass("hide");
+            $(".disAgree").addClass("show");
+        });
+        $(".ok").on("click", function () {
+            $(".disAgree").removeClass("show");
+            $(".agree").addClass("show");
+//            $(".agree").removeClass("hide");
+
+        })
+
+
+    })
+
+
+</script>
+<!--<script src="index.js"></script>-->
+
+</body>
+</html>
